@@ -78,7 +78,7 @@
 
 
 
-    <!-- Full Width Image Header -->
+    <!-- Full Width Image Header 
     <header class="header-image">
         <div class="headline">
             <div class="container">
@@ -87,6 +87,7 @@
             </div>
         </div>
     </header>
+	-->
 
     <!-- Page Content -->
     <div class="container">
@@ -183,18 +184,22 @@
 	
         <!-- Fifth Featurette -->
         <div class="featurette" id="miembros">
+
+	<div id=memimg></div>
+
             <h2 class="featurette-heading">Miembros</br>	
 	    </h2>
-            <p class="lead">Gregorio Robles: Profesor e investigador de la URJC, director del grupo</br>	
-					Jes&uacutes Moreno: Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC</br>	
-					Eva Castro: Profesor e investigador de la URJC</br>	
-					Pedro de las Heras: Profesor e investigador de la URJC</br>	
-					Jos&eacute Ignacio Huertas: Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC</br>	
-					Jos&eacute Centeno: Profesor e investigador de la URJC</br>	
-					Jes&uacutes M. Gonz&aacutelez Barahona: Profesor e investigador de la URJC</br>	
-					Eva Hu Garres: T&eacutecnico de apoyo</br>	
-					Mari Luz Aguado: T&eacutecnico de apoyo</br>	
-	    </p>
+		<div class="member">
+			<li><p>Gregorio Robles: Profesor e investigador de la URJC, director del grupo</p></li>
+			<li><p>Jes&uacutes Moreno: Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC</p></li>
+			<li><p>Eva Castro: Profesor e investigador de la URJC</p></li>
+			<li><p>Pedro de las Heras: Profesor e investigador de la URJC</p></li>
+			<li><p>Jos&eacute Ignacio Huertas: Cofundador de programamos.es, profesor de secundaria, doctorando en la URJC</p></li>
+			<li><p>Jos&eacute Centeno: Profesor e investigador de la URJC</p></li>
+			<li><p>Jes&uacutes M. Gonz&aacutelez Barahona: Profesor e investigador de la URJC</p></li>
+			<li><p>Eva Hu Garres: T&eacutecnico de apoyo</p></li>
+			<li><p>Mari Luz Aguado: T&eacutecnico de apoyo</p></li>
+		</div>
 		    
         </div>
 	<hr class="featurette-divider">
@@ -212,8 +217,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/conc.js"></script>
-    <script src="js/jquery.js"></script>
+   
+
     <!-- parallax -->
   <script src="js/parallax.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
