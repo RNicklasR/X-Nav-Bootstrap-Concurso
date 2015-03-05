@@ -8,14 +8,8 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-#meming img{
-height: 200px;
-width: 200px;
 
-}
-.member li{
-font: 1.6em/2.2
-}
+
 /*
 .header-image {
     display: block;
@@ -71,6 +65,7 @@ font: 1.6em/2.2
 }
 
 .featurette-heading {
+    margin-top:50px;
     font-size: 50px;
 }
 
